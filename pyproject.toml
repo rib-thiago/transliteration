@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "transliteration"
+version = "0.1.0"
+description = ""
+authors = ["Thiago Ribeiro <mackandalls@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.13"
+iuliia = "^0.11.5"
+transliterate = "^1.10.2"
+cyrtranslit = "^1.1.1"
+polyglot = "^16.7.4"
+pyicu = "^2.12"
+pycld2 = "^0.41"
+numpy = "^1.26.4"
+morfessor = "^2.0.6"
+deep-translator = "^1.11.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
